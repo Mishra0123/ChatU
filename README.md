@@ -1,8 +1,4 @@
 # ChatU
-#### Messaging Service Prototype  
-**Aaryaa Ram Shimgekar**  
-***IIT Indore***  
-BTech Computer Science  
 
 # Introduction
 

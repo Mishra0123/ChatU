@@ -45,7 +45,6 @@ mongoose
 app.use(passport.initialize());
 // Passport config
 require("./config/passport")(passport);
-
 // Assign socket object to every request
 app.use(function (req, res, next) {
   req.io = io;
@@ -55,3 +54,5 @@ app.use(function (req, res, next) {
 // Routes
 app.use("/api/users", users);
 app.use("/api/messages", messages);
+
+// console.log("HELLO")
